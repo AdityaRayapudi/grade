@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        
+            //Takes input for grade
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Type your grade:");
 int number = Integer.valueOf(scanner.nextLine());
 
-
+//Commpares number/grade to see what letter it is
 if (97 <= number){
     System.out.println("You got an A+");
 }
